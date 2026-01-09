@@ -52,7 +52,7 @@ The ESP32 firmware performs:
 - Periodic sampling of the TIA output
 - Serial transmission of raw ADC values
 
-[Location](#firmware/esp32/):
+[Location](#firmware/esp32/)
 
 ---
 
@@ -63,7 +63,7 @@ MATLAB is used for:
 - Calibration curve fitting
 - Plotting and error analysis
 
-[Location](#matlab/):
+[Location](#matlab/)
 
 ---
 
@@ -83,14 +83,10 @@ lighting without requiring a fully dark room.
 ---
 
 ## Repository Structure
-[`hardware/`](hardware/)    → schematics, wiring photos, enclosure notes, BOM
-['firmaware](firmware/)    → ESP32 + ADS1115 code
+[`hardware/`](hardware/)    → wiring photos, BOM
+
+['firmaware/'](firmware/)    → ESP32 code
+
 ['matlab/'](matlab/)      → calibration and analysis scripts
 
-This project demonstrates:
-- Practical photodiode-based optical sensing
-- Low-noise analog front-end design
-- Precision ADC integration
-- Embedded systems interfacing
-- MATLAB-based calibration and analysis
-- Clear separation between theory, implementation, and verification
+---
